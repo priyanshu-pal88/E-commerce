@@ -104,7 +104,7 @@ const UserProfile = () => {
 
                   <div className="flex flex-col md:flex-row gap-4">
                     <button className="flex-1 bg-cyan-500 hover:bg-cyan-600 transition-colors py-2 rounded-lg font-bold">
-                      Update User
+                      Update Info
                     </button>
 
                     {users?.isAdmin && (

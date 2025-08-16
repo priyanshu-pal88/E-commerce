@@ -55,7 +55,7 @@ const ProductTemplate = ({product}) => {
                     
                     <Link 
                         className='block w-full text-center text-blue-500 hover:text-blue-700 font-medium py-2 hover:bg-blue-50 rounded-lg transition-all duration-200' 
-                        to={`/product/${product.id}`}
+                        to={users ?`/product/${product.id}`:`/login`}
                     >
                         More Info →
                     </Link>

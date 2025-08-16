@@ -9,25 +9,14 @@
       "cart": [
         {
           "product": {
-            "id": 3,
-            "title": "Minimalist Wooden Watch",
-            "price": 1899,
-            "category": "Accessories",
-            "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
-            "description": "Eco-friendly wooden wristwatch with Japanese quartz movement and adjustable strap."
+            "id": "5",
+            "title": "Ceramic Coffee Mug Set",
+            "price": 799,
+            "category": "Home & Kitchen",
+            "image": "https://images.pexels.com/photos/247093/pexels-photo-247093.jpeg",
+            "description": "Set of 4 handcrafted ceramic mugs with a smooth matte finish."
           },
           "quantity": 1
-        },
-        {
-          "product": {
-            "id": "1",
-            "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-            "price": 109.95,
-            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-            "category": "men's clothing",
-            "image": "https://tse2.mm.bing.net/th/id/OIP.QoR0Y1L4XV2f0m49dg20eQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"
-          },
-          "quantity": 3
         }
       ]
     },
@@ -131,7 +120,7 @@
       "title": "Ceramic Coffee Mug Set",
       "price": 799,
       "category": "Home & Kitchen",
-      "image": "https://images.pexels.com/photos/247093/pexels-photo-247093.jpeg",
+      "image": "https://m.media-amazon.com/images/I/61BUsT6dQzL._AC_SL1500_.jpg",
       "description": "Set of 4 handcrafted ceramic mugs with a smooth matte finish."
     },
     {
@@ -155,7 +144,7 @@
       "title": "Leather Office Chair",
       "price": 12999,
       "category": "Furniture",
-      "image": "https://images.pexels.com/photos/813482/pexels-photo-813482.jpeg",
+      "image": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/1-red-office-chair-allan-swart.jpg",
       "description": "Ergonomic leather chair with adjustable height and lumbar support."
     },
     {
@@ -171,7 +160,7 @@
       "title": "Luxury Scented Candle",
       "price": 599,
       "category": "Home & Decor",
-      "image": "https://images.pexels.com/photos/3188/candles-flame-fire-light.jpg",
+      "image": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/premium-spa-candle-n-akkash.jpg",
       "description": "Hand-poured soy wax candle with a relaxing lavender aroma."
     }
   ]
