@@ -2,75 +2,22 @@
   "users": [
     {
       "id": "TXakfrYMB6D1wzROomA1h",
-      "name": "adimin.meraYaar",
+      "name": "Priyanshu",
       "email": "priyanshupal.cse2022@ritroorkee.com",
-      "password": "123456",
+      "password": "1234567",
       "isAdmin": "true",
       "cart": [
         {
           "product": {
-            "id": "1",
-            "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-            "price": 109.95,
-            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-            "category": "men's clothing",
-            "image": "https://tse2.mm.bing.net/th/id/OIP.QoR0Y1L4XV2f0m49dg20eQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"
-          },
-          "quantity": 6
-        },
-        {
-          "product": {
-            "id": "2",
-            "title": "Mens Casual Premium Slim Fit T-Shirts ",
-            "price": 22.3,
-            "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-            "category": "men's clothing",
-            "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png"
-          },
-          "quantity": 13
-        },
-        {
-          "product": {
-            "id": "9",
-            "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
-            "price": 64,
-            "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
-            "category": "electronics",
-            "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png"
+            "id": 3,
+            "title": "Minimalist Wooden Watch",
+            "price": 1899,
+            "category": "Accessories",
+            "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
+            "description": "Eco-friendly wooden wristwatch with Japanese quartz movement and adjustable strap."
           },
           "quantity": 1
         },
-        {
-          "product": {
-            "id": "4",
-            "title": "Mens Casual Slim Fit",
-            "price": 15.99,
-            "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-            "category": "men's clothing",
-            "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png"
-          },
-          "quantity": 1
-        },
-        {
-          "product": {
-            "id": "6",
-            "title": "Solid Gold Petite Micropave ",
-            "price": 168,
-            "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-            "category": "jewelery",
-            "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png"
-          },
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "id": "n9kaHDEkoeWs_c7MML4WD",
-      "name": "someone",
-      "email": "some@gmail.com",
-      "password": "989791",
-      "isAdmin": false,
-      "cart": [
         {
           "product": {
             "id": "1",
@@ -83,6 +30,59 @@
           "quantity": 2
         }
       ]
+    },
+    {
+      "id": "n9kaHDEkoeWs_c7MML4WD",
+      "name": "someone",
+      "email": "some@gmail.com",
+      "password": "989791",
+      "isAdmin": false,
+      "cart": []
+    },
+    {
+      "id": "jTJ5lyhSl9933DeXJL_l6",
+      "fullname": "Priyanshu pal",
+      "email": "aachipal88@gmail.com",
+      "password": "989791",
+      "isAdmin": false,
+      "cart": [
+        {
+          "product": {
+            "id": "2",
+            "title": "Mens Casual Premium Slim Fit T-Shirts ",
+            "price": 22.3,
+            "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png"
+          },
+          "quantity": 5
+        }
+      ],
+      "name": "Priyanshu"
+    },
+    {
+      "id": "NjPhmW6eiaYZNpM7h3kIN",
+      "name": "",
+      "email": "",
+      "password": "",
+      "isAdmin": false,
+      "cart": []
+    },
+    {
+      "id": "6thjZacOzV7Hp3b6INKPY",
+      "name": "",
+      "email": "",
+      "password": "",
+      "isAdmin": false,
+      "cart": []
+    },
+    {
+      "id": "38IbDQaVIx491TlcdJ7-r",
+      "name": "jaiho",
+      "email": "jaiho@gmail.com",
+      "password": "9876234",
+      "isAdmin": false,
+      "cart": []
     }
   ],
   "products": [
@@ -96,75 +96,83 @@
     },
     {
       "id": "2",
-      "title": "Mens Casual Premium Slim Fit T-Shirts ",
-      "price": 22.3,
-      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png"
+      "title": "Luxe Leather Backpack",
+      "price": 3499,
+      "category": "Fashion",
+      "image": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&auto=format&fit=crop&q=80",
+      "description": "Premium full-grain leather backpack with padded laptop compartment and vintage brass zippers."
     },
     {
       "id": "3",
-      "title": "Mens Cotton Jacket",
-      "price": 55.99,
-      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png"
+      "title": "Minimalist Wooden Watch",
+      "price": 1899,
+      "category": "Accessories",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
+      "description": "Eco-friendly wooden wristwatch with Japanese quartz movement and adjustable strap."
     },
-    {
-      "id": "4",
-      "title": "Mens Casual Slim Fit",
-      "price": 15.99,
-      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-      "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png"
-    },
-    {
-      "id": "5",
-      "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
-      "price": 695,
-      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-      "category": "jewelery",
-      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png"
-    },
-    {
-      "id": "6",
-      "title": "Solid Gold Petite Micropave ",
-      "price": 168,
-      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-      "category": "jewelery",
-      "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png"
-    },
-    {
-      "id": "7",
-      "title": "White Gold Plated Princess",
-      "price": 9.99,
-      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
-      "category": "jewelery",
-      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_t.png"
-    },
-    {
-      "id": "8",
-      "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
-      "price": 10.99,
-      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
-      "category": "jewelery",
-      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_t.png"
-    },
-    {
-      "id": "9",
-      "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
-      "price": 64,
-      "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png"
-    },
-    {
-      "id": "10",
-      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
-      "price": 109,
-      "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png"
-    }
+     {
+    "id": "33",
+    "title": "Wireless Noise-Cancelling Headphones",
+    "price": 8999,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=800&auto=format&fit=crop&q=80",
+    "description": "Over-ear Bluetooth headphones with active noise cancellation and up to 30 hours of battery life."
+  },
+   {
+    "id": "4",
+    "title": "Smart Fitness Watch",
+    "price": 4999,
+    "category": "Electronics",
+    "image": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg",
+    "description": "Water-resistant smartwatch with heart-rate monitor, GPS, and sleep tracking."
+  },
+  {
+    "id": "5",
+    "title": "Ceramic Coffee Mug Set",
+    "price": 799,
+    "category": "Home & Kitchen",
+    "image": "https://images.pexels.com/photos/247093/pexels-photo-247093.jpeg",
+    "description": "Set of 4 handcrafted ceramic mugs with a smooth matte finish."
+  },
+  {
+    "id": "6",
+    "title": "Rustic Wooden Dining Table",
+    "price": 15999,
+    "category": "Furniture",
+    "image": "https://images.pexels.com/photos/279607/pexels-photo-279607.jpeg",
+    "description": "Solid oak dining table with a natural finish, seating up to 6 people."
+  },
+  {
+    "id": "7",
+    "title": "Gaming Laptop 15.6”",
+    "price": 74999,
+    "category": "Electronics",
+    "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg",
+    "description": "High-performance gaming laptop with RTX graphics and 16GB RAM."
+  },
+  {
+    "id": "8",
+    "title": "Leather Office Chair",
+    "price": 12999,
+    "category": "Furniture",
+    "image": "https://images.pexels.com/photos/813482/pexels-photo-813482.jpeg",
+    "description": "Ergonomic leather chair with adjustable height and lumbar support."
+  },
+  {
+    "id": "9",
+    "title": "Premium Yoga Mat",
+    "price": 1499,
+    "category": "Sports",
+    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg",
+    "description": "Eco-friendly non-slip yoga mat with extra cushioning."
+  },
+  {
+    "id": "10",
+    "title": "Luxury Scented Candle",
+    "price": 599,
+    "category": "Home & Decor",
+    "image": "https://images.pexels.com/photos/3188/candles-flame-fire-light.jpg",
+    "description": "Hand-poured soy wax candle with a relaxing lavender aroma."
+  }
   ]
 }

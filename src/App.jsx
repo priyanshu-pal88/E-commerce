@@ -1,33 +1,36 @@
 import { useEffect } from "react";
-import './App.css'
+import './App.css';
 import { useDispatch, useSelector } from "react-redux";
 import Mainroutes from "./routes/Mainroutes";
 import Navbar from "./components/Navbar";
-import { asyncCurrentUsers } from "./store/actions/userActions"
+import { asyncCurrentUsers } from "./store/actions/userActions";
 import { asyncLoadProduct } from "./store/actions/productActions";
 
 function App() {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const { users } = useSelector((state) => state.userReducer);
   const { products } = useSelector((state) => state.productReducer);
+
   useEffect(() => {
-   users && dispatch(asyncCurrentUsers())
-    
-  }, [])
+    if (users) {
+      dispatch(asyncCurrentUsers());
+    }
+  }, []);
+
   useEffect(() => {
-  if (products.length === 0) {
-    dispatch(asyncLoadProduct());
-  }
-}, []);
+    if (products.length === 0) {
+      dispatch(asyncLoadProduct());
+    }
+  }, []);
 
   return (
-
-    <div className="px-[10%] w-screen min-h-screen bg-gray-700 text-white">
+    <div className="w-full min-h-screen bg-gradient-to-b from-gray-950 to-gray-900 text-white">
       <Navbar />
-      <Mainroutes />
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 ">
+        <Mainroutes />
+      </main>
     </div>
-
-  )
+  );
 }
 
-export default App
+export default App;
