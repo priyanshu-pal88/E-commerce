@@ -50,7 +50,7 @@ const Products = () => {
       dataLength={products.length} 
       next={fetchProducts}
       hasMore={hasMore}
-      loader={<h4>Loading...</h4>}
+      loader={<h4  className='text-9xl bg-black'>Loading...</h4>}
       endMessage={
         <p style={{ textAlign: 'center' }}>
           <b>Yay! You have seen it all</b>
