@@ -27,7 +27,7 @@
             "category": "men's clothing",
             "image": "https://tse2.mm.bing.net/th/id/OIP.QoR0Y1L4XV2f0m49dg20eQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"
           },
-          "quantity": 2
+          "quantity": 3
         }
       ]
     },
@@ -110,69 +110,69 @@
       "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
       "description": "Eco-friendly wooden wristwatch with Japanese quartz movement and adjustable strap."
     },
-     {
-    "id": "33",
-    "title": "Wireless Noise-Cancelling Headphones",
-    "price": 8999,
-    "category": "Electronics",
-    "image": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=800&auto=format&fit=crop&q=80",
-    "description": "Over-ear Bluetooth headphones with active noise cancellation and up to 30 hours of battery life."
-  },
-   {
-    "id": "4",
-    "title": "Smart Fitness Watch",
-    "price": 4999,
-    "category": "Electronics",
-    "image": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg",
-    "description": "Water-resistant smartwatch with heart-rate monitor, GPS, and sleep tracking."
-  },
-  {
-    "id": "5",
-    "title": "Ceramic Coffee Mug Set",
-    "price": 799,
-    "category": "Home & Kitchen",
-    "image": "https://images.pexels.com/photos/247093/pexels-photo-247093.jpeg",
-    "description": "Set of 4 handcrafted ceramic mugs with a smooth matte finish."
-  },
-  {
-    "id": "6",
-    "title": "Rustic Wooden Dining Table",
-    "price": 15999,
-    "category": "Furniture",
-    "image": "https://images.pexels.com/photos/279607/pexels-photo-279607.jpeg",
-    "description": "Solid oak dining table with a natural finish, seating up to 6 people."
-  },
-  {
-    "id": "7",
-    "title": "Gaming Laptop 15.6”",
-    "price": 74999,
-    "category": "Electronics",
-    "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg",
-    "description": "High-performance gaming laptop with RTX graphics and 16GB RAM."
-  },
-  {
-    "id": "8",
-    "title": "Leather Office Chair",
-    "price": 12999,
-    "category": "Furniture",
-    "image": "https://images.pexels.com/photos/813482/pexels-photo-813482.jpeg",
-    "description": "Ergonomic leather chair with adjustable height and lumbar support."
-  },
-  {
-    "id": "9",
-    "title": "Premium Yoga Mat",
-    "price": 1499,
-    "category": "Sports",
-    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg",
-    "description": "Eco-friendly non-slip yoga mat with extra cushioning."
-  },
-  {
-    "id": "10",
-    "title": "Luxury Scented Candle",
-    "price": 599,
-    "category": "Home & Decor",
-    "image": "https://images.pexels.com/photos/3188/candles-flame-fire-light.jpg",
-    "description": "Hand-poured soy wax candle with a relaxing lavender aroma."
-  }
+    {
+      "id": "33",
+      "title": "Wireless Noise-Cancelling Headphones",
+      "price": 8999,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=800&auto=format&fit=crop&q=80",
+      "description": "Over-ear Bluetooth headphones with active noise cancellation and up to 30 hours of battery life."
+    },
+    {
+      "id": "4",
+      "title": "Smart Fitness Watch",
+      "price": 4999,
+      "category": "Electronics",
+      "image": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg",
+      "description": "Water-resistant smartwatch with heart-rate monitor, GPS, and sleep tracking."
+    },
+    {
+      "id": "5",
+      "title": "Ceramic Coffee Mug Set",
+      "price": 799,
+      "category": "Home & Kitchen",
+      "image": "https://images.pexels.com/photos/247093/pexels-photo-247093.jpeg",
+      "description": "Set of 4 handcrafted ceramic mugs with a smooth matte finish."
+    },
+    {
+      "id": "6",
+      "title": "Rustic Wooden Dining Table",
+      "price": 15999,
+      "category": "Furniture",
+      "image": "https://images.pexels.com/photos/279607/pexels-photo-279607.jpeg",
+      "description": "Solid oak dining table with a natural finish, seating up to 6 people."
+    },
+    {
+      "id": "7",
+      "title": "Gaming Laptop 15.6”",
+      "price": 74999,
+      "category": "Electronics",
+      "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg",
+      "description": "High-performance gaming laptop with RTX graphics and 16GB RAM."
+    },
+    {
+      "id": "8",
+      "title": "Leather Office Chair",
+      "price": 12999,
+      "category": "Furniture",
+      "image": "https://images.pexels.com/photos/813482/pexels-photo-813482.jpeg",
+      "description": "Ergonomic leather chair with adjustable height and lumbar support."
+    },
+    {
+      "id": "9",
+      "title": "Premium Yoga Mat",
+      "price": 1499,
+      "category": "Sports",
+      "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg",
+      "description": "Eco-friendly non-slip yoga mat with extra cushioning."
+    },
+    {
+      "id": "10",
+      "title": "Luxury Scented Candle",
+      "price": 599,
+      "category": "Home & Decor",
+      "image": "https://images.pexels.com/photos/3188/candles-flame-fire-light.jpg",
+      "description": "Hand-poured soy wax candle with a relaxing lavender aroma."
+    }
   ]
 }

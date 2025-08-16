@@ -3,6 +3,7 @@ import axios from '../api/axiosconfig'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import { useDispatch, useSelector } from 'react-redux'
 import { loadlazyproduct } from '../store/reducers/productSlice'
+import LoadingSkeleton from './LoadingSkeleton'
 const ProductTemplate = lazy(() => import('../components/ProductTemplate'))
 
 const Products = () => {
@@ -57,17 +58,13 @@ const Products = () => {
       }
     >
 
-      <div className='flex flex-wrap  justify-center '>
-        {products.map((product) => (
-          <Suspense key={product.id} fallback={
-            <h1 className='text-center text-5xl text-yellow-400'>
-              LOADING...
-            </h1>
-          }>
-            <ProductTemplate  product={product} />
-          </Suspense>
-        ))}
-      </div>
+      <Suspense fallback={<LoadingSkeleton/>}>
+  <div className="flex flex-wrap justify-center">
+    {products.map((product) => (
+      <ProductTemplate key={product.id} product={product} />
+    ))}
+  </div>
+</Suspense>
     </InfiniteScroll>
   ) : ("Loading...")
 
