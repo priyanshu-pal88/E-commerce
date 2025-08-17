@@ -35,7 +35,7 @@ const ProductDetails = () => {
 
   const DeleteHandler = () => {
     dispatch(asyncDeleteProduct(id));
-    navigate("/products");
+    navigate("/");
   };
   const AddtoCartHandler = (product) => {
     const copyuser = { ...users, cart: Array.isArray(users.cart) ? [...users.cart] : [] }
