@@ -7,6 +7,8 @@ import {
   asyncUpdateProduct,
 } from "../../store/actions/productActions";
 import { asyncUpdateUsers } from "../../store/actions/userActions";
+import { loaduser } from "../../store/reducers/userSlice";
+import { toast } from "react-toastify";
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -45,11 +47,14 @@ const ProductDetails = () => {
     }
     else {
       copyuser.cart[x] = {
-        product,
+        ...copyuser.cart[x],
         quantity: copyuser.cart[x].quantity + 1
       }
     }
-    dispatch(asyncUpdateUsers(copyuser.id, copyuser))
+    // dispatch(asyncUpdateUsers(copyuser.id, copyuser))
+    dispatch(loaduser(copyuser))
+    localStorage.setItem("user", JSON.stringify(copyuser))
+    toast.success("Item added to cart")
   }
 
   return product ? (

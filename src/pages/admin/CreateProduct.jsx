@@ -22,7 +22,7 @@ const CreateProduct = () => {
     product.id = nanoid();
     dispatch(asyncCreateProduct(product));
     reset();
-    navigate("/products");
+    navigate("/");
   };
 
   return (
