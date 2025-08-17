@@ -2,7 +2,7 @@ import { nanoid } from "nanoid";
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router";
 import { asyncRegisterUsers } from "../store/actions/userActions";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 const Register = () => {
   const {
@@ -19,6 +19,7 @@ const Register = () => {
     user.id = nanoid();
     user.isAdmin = false;
     user.cart = [];
+    
     dispatch(asyncRegisterUsers(user));
     reset();
     user.email && user.password && navigate("/login");

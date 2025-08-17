@@ -26,33 +26,17 @@
       "name": "Priyanshu pal"
     },
     {
-      "id": "NjPhmW6eiaYZNpM7h3kIN",
-      "name": "",
-      "email": "",
-      "password": "",
-      "isAdmin": false,
-      "cart": []
-    },
-    {
-      "id": "6thjZacOzV7Hp3b6INKPY",
-      "name": "",
-      "email": "",
-      "password": "",
-      "isAdmin": false,
-      "cart": []
-    },
-    {
-      "id": "38IbDQaVIx491TlcdJ7-r",
-      "name": "jaiho",
-      "email": "jaiho@gmail.com",
-      "password": "9876234",
-      "isAdmin": false,
-      "cart": []
-    },
-    {
       "id": "hyXP3t3Cp-TQpzdvpWi6p",
       "name": "Priyanshu pal",
       "email": "aachipal88@gmail.com",
+      "password": "989791",
+      "isAdmin": false,
+      "cart": []
+    },
+    {
+      "id": "bfdyq47fFsn6Cfc7ZuK7M",
+      "name": "someone123",
+      "email": "some1@gmail.com",
       "password": "989791",
       "isAdmin": false,
       "cart": []

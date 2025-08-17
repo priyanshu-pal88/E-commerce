@@ -1,9 +1,18 @@
+import { toast } from 'react-toastify';
 import axios from '../../api/axiosconfig'
 import { loaduser, removeuser } from '../reducers/userSlice'
 
 export const asyncRegisterUsers = (user) => async (dispatch, getState) => {
     try {
+         const { data } = await axios.get(`/users?email=${user.email}`);
+
+        if (data.length > 0) {
+            // User already registered
+            toast.error("User already registered with this email!");
+            return;
+        }
         const res = await axios.post("/users", user)
+        
 
     } catch (error) {
         console.log(error)
