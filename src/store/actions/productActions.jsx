@@ -5,7 +5,8 @@ import { addProduct, loadproduct, updateProductLocally } from '../reducers/produ
 export const asyncLoadProduct = (product) => async (dispatch, getState) => {
 
     try { 
-        const {data} = await axios.get("/products")
+        
+        const {data} = await axios.get(`/products`)
         dispatch(loadproduct(data))
     } catch (error) {
         console.log(error)
@@ -24,7 +25,7 @@ export const asyncCreateProduct = (product) => async (dispatch, getState) => {
 export const asyncUpdateProduct = (id  ,product) => async (dispatch, getState) => {
 
     try { 
-         await axios.patch("/products/" + id,product)
+         await axios.patch(`/products/${id}`,product)
         // dispatch(asyncLoadProduct())
         dispatch(updateProductLocally({ id, changes: product }));
     } catch (error) {

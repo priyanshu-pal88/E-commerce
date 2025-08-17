@@ -36,14 +36,14 @@ const Cart = () => {
             key={i}
             className="flex flex-col  md:flex-row items-center justify-between bg-gray-800 p-4 rounded-2xl shadow-lg hover:shadow-xl transition-shadow"
           >
-            
+
             <img
               className="w-32 h-32 object-cover rounded-lg"
               src={ci.product.image}
               alt={ci.product.title}
             />
 
-            
+
             <div className="flex-1 text-center md:text-left px-4">
               <h2 className="font-semibold text-xl text-white">
                 {ci.product.title}
@@ -53,7 +53,7 @@ const Cart = () => {
               </p>
             </div>
 
-            
+
             <div className="flex items-center bg-gray-700 rounded-lg overflow-hidden">
               <button
                 onClick={() => DecreaseQuantity(i)}

@@ -18,18 +18,18 @@ const Products = () => {
       const { data } = await axios.get(`/products?_limit=${LIMIT}&_start=${offset}`)
 
       if (data.length === 0) {
-      sethasMore(false);
-    } else {
-
-      const existingIds = new Set(products.map(p => p.id));
-      const uniqueData = data.filter(p => !existingIds.has(p.id));
-
-      if (uniqueData.length === 0) {
         sethasMore(false);
-        return;
-      }
+      } else {
 
-      
+        const existingIds = new Set(products.map(p => p.id));
+        const uniqueData = data.filter(p => !existingIds.has(p.id));
+
+        if (uniqueData.length === 0) {
+          sethasMore(false);
+          return;
+        }
+
+
         setOffset((prev) => prev + LIMIT);
         dispatch(loadlazyproduct(uniqueData))
 
@@ -37,7 +37,7 @@ const Products = () => {
     } catch (error) {
       console.log(error)
     }
-  }    
+  }
 
   useEffect(() => {
     fetchProducts()
@@ -47,10 +47,10 @@ const Products = () => {
 
   return products.length > 0 ? (
     <InfiniteScroll
-      dataLength={products.length} 
+      dataLength={products.length}
       next={fetchProducts}
       hasMore={hasMore}
-      loader={<h4  className='text-9xl bg-black'>Loading...</h4>}
+      loader={<h4 className=' bg-black'>Loading...</h4>}
       endMessage={
         <p style={{ textAlign: 'center' }}>
           <b>Yay! You have seen it all</b>
@@ -58,13 +58,13 @@ const Products = () => {
       }
     >
 
-      <Suspense fallback={<LoadingSkeleton/>}>
-  <div className="flex flex-wrap justify-center">
-    {products.map((product) => (
-      <ProductTemplate key={product.id} product={product} />
-    ))}
-  </div>
-</Suspense>
+      <Suspense fallback={<LoadingSkeleton />}>
+        <div className="flex flex-wrap justify-center">
+          {products.map((product) => (
+            <ProductTemplate key={product.id} product={product} />
+          ))}
+        </div>
+      </Suspense>
     </InfiniteScroll>
   ) : ("Loading...")
 
