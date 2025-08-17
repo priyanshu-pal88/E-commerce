@@ -17,21 +17,47 @@
       "cart": []
     },
     {
-      "id": "jTJ5lyhSl9933DeXJL_l6",
-      "fullname": "Priyanshu pal",
-      "email": "aachipal889@gmail.com",
-      "password": "989791",
-      "isAdmin": false,
-      "cart": [],
-      "name": "Priyanshu pal"
-    },
-    {
       "id": "bfdyq47fFsn6Cfc7ZuK7M",
       "name": "someone123",
       "email": "some1@gmail.com",
       "password": "989791",
       "isAdmin": false,
       "cart": []
+    },
+    {
+      "id": "9d-5d4S60iac7z_rzvUT7",
+      "name": "Priyanshu pal1",
+      "email": "aachipal88@gmail.com",
+      "password": "989791",
+      "isAdmin": false,
+      "cart": [
+        {
+          "product": {
+            "id": "2",
+            "title": "Luxe Leather Backpack",
+            "price": 3499,
+            "category": "Fashion",
+            "image": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=800&auto=format&fit=crop&q=80",
+            "description": "Premium full-grain leather backpack with padded laptop compartment and vintage brass zippers."
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": "13",
+            "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+            "price": 599,
+            "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+            "category": "electronics",
+            "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png",
+            "rating": {
+              "rate": 2.9,
+              "count": 250
+            }
+          },
+          "quantity": 1
+        }
+      ]
     }
   ],
   "products": [
